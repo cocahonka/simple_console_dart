@@ -1,0 +1,7 @@
+include: package:very_good_analysis/analysis_options.yaml
+{{#linter_suppression}}
+linter:
+  rules:
+    public_member_api_docs: false
+    avoid_print: false
+{{/linter_suppression}}

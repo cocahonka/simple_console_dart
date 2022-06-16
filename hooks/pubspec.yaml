@@ -1,0 +1,7 @@
+name: simple_console_dart_hooks
+
+environment:
+  sdk: ^2.17.3
+
+dependencies:
+  mason: ^0.1.0-dev
