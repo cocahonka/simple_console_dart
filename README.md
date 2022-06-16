@@ -14,8 +14,8 @@ This brick creates a very simple structure for a dart console application. Your 
 ```
 ├── pubspec.yaml
 ├── analysis_options.yaml
-└── lib/
-    └── main.dart
+╰── lib/
+    ╰── main.dart
 ```
 
 ## Getting brick 
