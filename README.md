@@ -12,11 +12,13 @@ This brick creates a very simple structure for a dart console application. Your 
 ## Folder structure & files
 
 ```
-├── pubspec.yaml
-├── analysis_options.yaml
-╰── lib/
-    ╰── main.dart
+├── {{name}}/
+╰── ├── pubspec.yaml
+    ├── analysis_options.yaml
+    ╰── lib/
+        ╰── main.dart
 ```
+{{name}} mean the name you enter when 'make' the brick
 
 ## Getting brick 
 

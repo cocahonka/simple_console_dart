@@ -13,12 +13,16 @@ void run(HookContext context) {
     'add',
     'very_good_analysis',
     '-d',
+    '-C',
+    context.vars['name'],
   ]);
   pubAddProgress.complete();
 
   Process.runSync('dart', [
     'pub',
     'get',
+    '-C',
+    context.vars['name'],
   ]);
   pubGetProgress.complete();
   createProgress.complete();
