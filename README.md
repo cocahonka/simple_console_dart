@@ -21,7 +21,8 @@ This brick creates a very simple structure for a dart console application. Your 
 ## Getting brick 
 
 1. [Get mason][1]
-2. Run in console ```mason add -g simple_console_dart --git-url https://github.com/cocahonka/simple_console_dart.git```
+2. Run in console  
+```mason add -g simple_console_dart --git-url https://github.com/cocahonka/simple_console_dart.git```
 
 ## Usage
 
@@ -32,7 +33,7 @@ To shorten the command, you can create command alias guide for windows.
 Checked in powershell v.7:
 1. ```cd C:/Users/USERNAME/```
 2. ```mkdir .config/powershell```
-3. ```notepad .config/powershell/user_profile.ps1```
+3. ```code .config/powershell/user_profile.ps1```
 4. Write in opened file and save:
 ```
 # Alias
@@ -43,7 +44,7 @@ function CreateSimpleDartConsoleApp()
     mason make simple_console_dart
 }  
 ```
-5. ```notepad $PROFILE.CurrentUserCurrentHost```
+5. ```code $PROFILE.CurrentUserCurrentHost```
 6. Write in opened file and save: ```. $env:USERPROFILE/.config/powershell/user_profile.ps1```
 7. Restart shell and now you can use ```dartfast``` instead of ```mason make simple_console_dart```
 
